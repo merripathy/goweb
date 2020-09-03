@@ -21,7 +21,8 @@ type user struct {
 func init() {
 
 	dbUsers["bmerri"] = user{"bmerri", "pass", "bmerri@abc.com", 110.00}
-	fmt.Println("Program started")
+	fmt.Println("Program started and init function called")
+
 }
 
 //initiate database  connection
